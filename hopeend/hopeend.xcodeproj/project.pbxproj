@@ -51,12 +51,10 @@
 		EF7ED5EE2B14FB54001FCD09 /* hopeend */ = {
 			isa = PBXGroup;
 			children = (
-				EF7ED5F52B14FB58001FCD09 /* Preview Content */,
-				EF7ED5FF2B14FC63001FCD09 /* New Group */,
 				EF7ED5FD2B14FC25001FCD09 /* Classes */,
+				EF7ED5FF2B14FC63001FCD09 /* Resources */,
 				EF7ED5EF2B14FB54001FCD09 /* hopeendApp.swift */,
-				EF7ED5F12B14FB54001FCD09 /* ContentView.swift */,
-				EF7ED5F32B14FB58001FCD09 /* Assets.xcassets */,
+				EF7ED5F52B14FB58001FCD09 /* Preview Content */,
 			);
 			path = hopeend;
 			sourceTree = "<group>";
@@ -64,6 +62,7 @@
 		EF7ED5F52B14FB58001FCD09 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EF7ED5F12B14FB54001FCD09 /* ContentView.swift */,
 				EF7ED5F62B14FB58001FCD09 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -72,28 +71,31 @@
 		EF7ED5FD2B14FC25001FCD09 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF7ED6022B14FCB1001FCD09 /* Business */,
-				EF7ED6012B14FCA8001FCD09 /* UI */,
+				EF7ED60D2B15041F001FCD09 /* Models */,
 				EF7ED6002B14FC9C001FCD09 /* Generated */,
-				EF7ED5FE2B14FC4A001FCD09 /* Models */,
+				EF7ED6012B14FCA8001FCD09 /* UI */,
+				EF7ED6022B14FCB1001FCD09 /* Business */,
+				EF7ED5FE2B14FC4A001FCD09 /* Modules */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		EF7ED5FE2B14FC4A001FCD09 /* Models */ = {
+		EF7ED5FE2B14FC4A001FCD09 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				EF7ED60A2B14FE02001FCD09 /* New Group */,
 				EF7ED6092B14FDE3001FCD09 /* Registration */,
+				EF7ED60A2B14FE02001FCD09 /* List */,
+				EF7ED60B2B150290001FCD09 /* Auth */,
 			);
-			path = Models;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		EF7ED5FF2B14FC63001FCD09 /* New Group */ = {
+		EF7ED5FF2B14FC63001FCD09 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF7ED5F32B14FB58001FCD09 /* Assets.xcassets */,
 			);
-			path = "New Group";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EF7ED6002B14FC9C001FCD09 /* Generated */ = {
@@ -106,10 +108,10 @@
 		EF7ED6012B14FCA8001FCD09 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EF7ED6032B14FCD6001FCD09 /* Typography */,
+				EF7ED6042B14FCF3001FCD09 /* Loader */,
 				EF7ED6062B14FD0B001FCD09 /* InputField */,
 				EF7ED6052B14FCFC001FCD09 /* StyledButton */,
-				EF7ED6042B14FCF3001FCD09 /* Loader */,
-				EF7ED6032B14FCD6001FCD09 /* Typography */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -172,11 +174,41 @@
 			path = Registration;
 			sourceTree = "<group>";
 		};
-		EF7ED60A2B14FE02001FCD09 /* New Group */ = {
+		EF7ED60A2B14FE02001FCD09 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EF7ED60E2B150474001FCD09 /* Models */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		EF7ED60B2B150290001FCD09 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF7ED60C2B15032C001FCD09 /* Models */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EF7ED60C2B15032C001FCD09 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF7ED60D2B15041F001FCD09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF7ED60E2B150474001FCD09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
