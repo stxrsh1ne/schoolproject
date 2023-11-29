@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-@main
-struct hopeendApp: App {
+struct SchoolApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            NavigationStack {
+                AuthScreen(viewModel: AuthVM())
+            }
         }
     }
 }

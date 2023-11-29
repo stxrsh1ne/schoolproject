@@ -11,6 +11,15 @@
 		EF7ED5F22B14FB54001FCD09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7ED5F12B14FB54001FCD09 /* ContentView.swift */; };
 		EF7ED5F42B14FB58001FCD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7ED5F32B14FB58001FCD09 /* Assets.xcassets */; };
 		EF7ED5F72B14FB58001FCD09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7ED5F62B14FB58001FCD09 /* Preview Assets.xcassets */; };
+		EF9F65692B17CEA500FB5363 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F65682B17CEA500FB5363 /* InputField.swift */; };
+		EF9F656B2B17CF9200FB5363 /* InputFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F656A2B17CF9200FB5363 /* InputFieldModel.swift */; };
+		EF9F656D2B17CFEA00FB5363 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F656C2B17CFEA00FB5363 /* Loader.swift */; };
+		EF9F656F2B17D01500FB5363 /* LoaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F656E2B17D01500FB5363 /* LoaderModifier.swift */; };
+		EF9F65732B17D0EB00FB5363 /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F65722B17D0EB00FB5363 /* StyledButton.swift */; };
+		EF9F65772B17D17B00FB5363 /* StyledButtonStyle+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F65762B17D17B00FB5363 /* StyledButtonStyle+Default.swift */; };
+		EF9F65792B17D1A400FB5363 /* StyledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F65782B17D1A400FB5363 /* StyledButtonStyle.swift */; };
+		EF9F657B2B17D1E900FB5363 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F657A2B17D1E900FB5363 /* Assets.swift */; };
+		EF9F657D2B17D21400FB5363 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F657C2B17D21400FB5363 /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		EF7ED5F12B14FB54001FCD09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF7ED5F32B14FB58001FCD09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7ED5F62B14FB58001FCD09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF9F65682B17CEA500FB5363 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		EF9F656A2B17CF9200FB5363 /* InputFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldModel.swift; sourceTree = "<group>"; };
+		EF9F656C2B17CFEA00FB5363 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		EF9F656E2B17D01500FB5363 /* LoaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderModifier.swift; sourceTree = "<group>"; };
+		EF9F65722B17D0EB00FB5363 /* StyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
+		EF9F65762B17D17B00FB5363 /* StyledButtonStyle+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StyledButtonStyle+Default.swift"; sourceTree = "<group>"; };
+		EF9F65782B17D1A400FB5363 /* StyledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButtonStyle.swift; sourceTree = "<group>"; };
+		EF9F657A2B17D1E900FB5363 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		EF9F657C2B17D21400FB5363 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,8 @@
 		EF7ED6002B14FC9C001FCD09 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F657A2B17D1E900FB5363 /* Assets.swift */,
+				EF9F657C2B17D21400FB5363 /* Strings.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -135,6 +155,8 @@
 		EF7ED6042B14FCF3001FCD09 /* Loader */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F656C2B17CFEA00FB5363 /* Loader.swift */,
+				EF9F656E2B17D01500FB5363 /* LoaderModifier.swift */,
 			);
 			path = Loader;
 			sourceTree = "<group>";
@@ -142,6 +164,9 @@
 		EF7ED6052B14FCFC001FCD09 /* StyledButton */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F65722B17D0EB00FB5363 /* StyledButton.swift */,
+				EF9F65762B17D17B00FB5363 /* StyledButtonStyle+Default.swift */,
+				EF9F65782B17D1A400FB5363 /* StyledButtonStyle.swift */,
 			);
 			path = StyledButton;
 			sourceTree = "<group>";
@@ -149,6 +174,8 @@
 		EF7ED6062B14FD0B001FCD09 /* InputField */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F65682B17CEA500FB5363 /* InputField.swift */,
+				EF9F656A2B17CF9200FB5363 /* InputFieldModel.swift */,
 			);
 			path = InputField;
 			sourceTree = "<group>";
@@ -282,7 +309,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7ED5F22B14FB54001FCD09 /* ContentView.swift in Sources */,
+				EF9F657D2B17D21400FB5363 /* Strings.swift in Sources */,
+				EF9F656B2B17CF9200FB5363 /* InputFieldModel.swift in Sources */,
 				EF7ED5F02B14FB54001FCD09 /* hopeendApp.swift in Sources */,
+				EF9F65792B17D1A400FB5363 /* StyledButtonStyle.swift in Sources */,
+				EF9F65692B17CEA500FB5363 /* InputField.swift in Sources */,
+				EF9F65772B17D17B00FB5363 /* StyledButtonStyle+Default.swift in Sources */,
+				EF9F656D2B17CFEA00FB5363 /* Loader.swift in Sources */,
+				EF9F65732B17D0EB00FB5363 /* StyledButton.swift in Sources */,
+				EF9F657B2B17D1E900FB5363 /* Assets.swift in Sources */,
+				EF9F656F2B17D01500FB5363 /* LoaderModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
